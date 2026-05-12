@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "Shughlak — Find Work in Kirkuk",
+    "description": "Kirkuk job board connecting job seekers with local employers."
+  },
+  "brand": {
+    "name": "Shughlak",
+    "tagline": "Find Work in Kirkuk"
+  },
+  "nav": {
+    "home": "Home",
+    "jobs": "Jobs",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "postJob": "Post job",
+    "login": "Log in",
+    "register": "Sign up",
+    "logout": "Log out"
+  },
+  "home": {
+    "title": "Jobs near you",
+    "subtitle": "Kirkuk — quick apply, clear listings",
+    "searchPlaceholder": "Job title, company…",
+    "searchAction": "Search",
+    "categoriesLabel": "Category",
+    "noResults": "No jobs match your filters.",
+    "viewAll": "See all jobs"
+  },
+  "jobs": {
+    "title": "All jobs",
+    "filters": "Filters",
+    "category": "Category",
+    "jobType": "Type",
+    "salaryMin": "Min salary (USD)",
+    "salaryMax": "Max salary (USD)",
+    "allCategories": "All categories",
+    "fullTime": "Full-time",
+    "partTime": "Part-time",
+    "clear": "Clear filters",
+    "results": "{count, plural, =0 {No jobs} one {# job} other {# jobs}}",
+    "empty": "No jobs match these filters."
+  },
+  "jobCard": {
+    "apply": "Apply",
+    "openDetail": "View details",
+    "callEmployer": "Call",
+    "platformOnlyHint": "This listing uses in-app apply — open the job to submit.",
+    "whatsapp": "WhatsApp",
+    "verified": "Verified employer",
+    "featured": "Featured",
+    "salary": "{min} – {max} {currency}",
+    "salaryOpen": "Negotiable",
+    "posted": "Posted {date}"
+  },
+  "jobDetail": {
+    "back": "Back to jobs",
+    "about": "Job description",
+    "moreDetails": "More details",
+    "gallery": "Photos",
+    "mapEmbedTitle": "Location map",
+    "openInMaps": "Open in Google Maps",
+    "actionsHeading": "Next steps",
+    "directOnlyBanner": "This employer prefers phone or WhatsApp contact first.",
+    "directOnlyApplyHint": "In-app apply is off for this listing — use call or WhatsApp above.",
+    "apply": "Apply now",
+    "applied": "You’ve applied",
+    "loginToApply": "Log in as a job seeker to apply",
+    "employerHint": "Only job seekers can apply",
+    "company": "Company",
+    "location": "Location",
+    "type": "Employment type"
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "registerTitle": "Create an account",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full name",
+    "phone": "Phone (optional)",
+    "role": "I am a",
+    "seeker": "Job seeker",
+    "employer": "Employer",
+    "companyName": "Company name",
+    "whatsapp": "WhatsApp number",
+    "submitLogin": "Log in",
+    "submitRegister": "Create account",
+    "noAccount": "No account?",
+    "hasAccount": "Already have an account?",
+    "error": "Something went wrong. Try again."
+  },
+  "profile": {
+    "title": "Your profile",
+    "bio": "Bio",
+    "experienceYears": "Years of experience",
+    "skills": "Skills",
+    "languages": "Languages",
+    "cvUrl": "CV link (URL)",
+    "save": "Save profile",
+    "saved": "Profile updated."
+  },
+  "dashboard": {
+    "title": "Employer dashboard",
+    "yourJobs": "Your listings",
+    "applicants": "Applicants",
+    "noApplicants": "No applicants yet.",
+    "status": "Status",
+    "seeker": "Candidate",
+    "emptyList": "No listings yet.",
+    "createFirst": "Create one"
+  },
+  "postJob": {
+    "title": "Post a job",
+    "submit": "Publish listing",
+    "success": "Job posted successfully.",
+    "fieldTitle": "Job title",
+    "fieldDescription": "Short description (shown on cards)",
+    "fieldLocation": "Location",
+    "fieldCurrency": "Currency",
+    "longDescription": "Long description (optional, full job page)",
+    "coverImage": "Cover image URL (optional)",
+    "galleryUrls": "More image URLs (optional, one per line)",
+    "contactMode": "How should candidates reach you?",
+    "contactBoth": "Phone / WhatsApp and in-app apply",
+    "contactDirect": "Phone / WhatsApp only (no in-app apply)",
+    "contactPlatform": "In-app apply only (hide quick call buttons on cards)"
+  },
+  "jobTypeLabels": {
+    "FULL_TIME": "Full-time",
+    "PART_TIME": "Part-time"
+  },
+  "applicationStatus": {
+    "PENDING": "Pending",
+    "VIEWED": "Viewed",
+    "ACCEPTED": "Accepted",
+    "REJECTED": "Rejected"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "شغلك — اعثر على عمل في كركوك",
+    "description": "لوحة وظائف كركوك تربط الباحثين عن عمل بأصحاب العمل المحليين."
+  },
+  "brand": {
+    "name": "شغلك",
+    "tagline": "اعثر على عمل في كركوك"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "jobs": "الوظائف",
+    "profile": "الملف",
+    "dashboard": "لوحة التحكم",
+    "postJob": "نشر وظيفة",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "logout": "خروج"
+  },
+  "home": {
+    "title": "وظائف قريبة منك",
+    "subtitle": "كركوك — تقديم سريع وإعلانات واضحة",
+    "searchPlaceholder": "المسمى، الشركة…",
+    "searchAction": "بحث",
+    "categoriesLabel": "التصنيف",
+    "noResults": "لا توجد وظائف مطابقة.",
+    "viewAll": "كل الوظائف"
+  },
+  "jobs": {
+    "title": "كل الوظائف",
+    "filters": "عوامل التصفية",
+    "category": "التصنيف",
+    "jobType": "النوع",
+    "salaryMin": "الحد الأدنى للراتب (دولار)",
+    "salaryMax": "الحد الأقصى للراتب (دولار)",
+    "allCategories": "كل التصنيفات",
+    "fullTime": "دوام كامل",
+    "partTime": "دوام جزئي",
+    "clear": "مسح الفلاتر",
+    "results": "{count, plural, =0 {لا وظائف} one {وظيفة واحدة} other {# وظائف}}",
+    "empty": "لا توجد وظائف مطابقة لهذه الفلاتر."
+  },
+  "jobCard": {
+    "apply": "تقديم",
+    "openDetail": "عرض التفاصيل",
+    "callEmployer": "اتصال",
+    "platformOnlyHint": "هذا الإعلان يفضّل التقديم عبر التطبيق — افتح التفاصيل للتقديم.",
+    "whatsapp": "واتساب",
+    "verified": "صاحب عمل موثوق",
+    "featured": "مميز",
+    "salary": "{min} – {max} {currency}",
+    "salaryOpen": "قابل للتفاوض",
+    "posted": "نُشر {date}"
+  },
+  "jobDetail": {
+    "back": "العودة للوظائف",
+    "about": "وصف الوظيفة",
+    "moreDetails": "تفاصيل إضافية",
+    "gallery": "صور",
+    "mapEmbedTitle": "خريطة الموقع",
+    "openInMaps": "فتح في خرائط Google",
+    "actionsHeading": "الخطوة التالية",
+    "directOnlyBanner": "صاحب العمل يفضّل التواصل أولاً عبر الهاتف أو واتساب.",
+    "directOnlyApplyHint": "التقديم عبر التطبيق غير متاح لهذه الوظيفة — استخدم الاتصال أو واتساب أعلاه.",
+    "apply": "تقديم الآن",
+    "applied": "لقد قدّمت طلبك",
+    "loginToApply": "سجّل كباحث عن عمل للتقديم",
+    "employerHint": "فقط الباحثون عن عمل يمكنهم التقديم",
+    "company": "الشركة",
+    "location": "الموقع",
+    "type": "نوع التوظيف"
+  },
+  "auth": {
+    "loginTitle": "مرحباً بعودتك",
+    "registerTitle": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "fullName": "الاسم الكامل",
+    "phone": "الهاتف (اختياري)",
+    "role": "أنا",
+    "seeker": "باحث عن عمل",
+    "employer": "صاحب عمل",
+    "companyName": "اسم الشركة",
+    "whatsapp": "رقم واتساب",
+    "submitLogin": "تسجيل الدخول",
+    "submitRegister": "إنشاء الحساب",
+    "noAccount": "ليس لديك حساب؟",
+    "hasAccount": "لديك حساب بالفعل؟",
+    "error": "حدث خطأ. حاول مرة أخرى."
+  },
+  "profile": {
+    "title": "ملفك الشخصي",
+    "bio": "نبذة",
+    "experienceYears": "سنوات الخبرة",
+    "skills": "المهارات",
+    "languages": "اللغات",
+    "cvUrl": "رابط السيرة الذاتية",
+    "save": "حفظ",
+    "saved": "تم تحديث الملف."
+  },
+  "dashboard": {
+    "title": "لوحة صاحب العمل",
+    "yourJobs": "إعلاناتك",
+    "applicants": "المتقدمون",
+    "noApplicants": "لا متقدمون بعد.",
+    "status": "الحالة",
+    "seeker": "مرشح",
+    "emptyList": "لا توجد إعلانات بعد.",
+    "createFirst": "أنشئ إعلاناً"
+  },
+  "postJob": {
+    "title": "نشر وظيفة",
+    "submit": "نشر الإعلان",
+    "success": "تم نشر الوظيفة بنجاح.",
+    "fieldTitle": "المسمى الوظيفي",
+    "fieldDescription": "وصف قصير (يظهر في البطاقات)",
+    "fieldLocation": "الموقع",
+    "fieldCurrency": "العملة",
+    "longDescription": "وصف طويل (اختياري — الصفحة الكاملة)",
+    "coverImage": "رابط صورة الغلاف (اختياري)",
+    "galleryUrls": "روابط صور إضافية (اختياري، رابط لكل سطر)",
+    "contactMode": "كيف يتواصل المرشحون معك؟",
+    "contactBoth": "هاتف / واتساب + تقديم عبر التطبيق",
+    "contactDirect": "هاتف / واتساب فقط (بدون تقديم عبر التطبيق)",
+    "contactPlatform": "تقديم عبر التطبيق فقط"
+  },
+  "jobTypeLabels": {
+    "FULL_TIME": "دوام كامل",
+    "PART_TIME": "دوام جزئي"
+  },
+  "applicationStatus": {
+    "PENDING": "قيد الانتظار",
+    "VIEWED": "مشاهَد",
+    "ACCEPTED": "مقبول",
+    "REJECTED": "مرفوض"
+  }
+}

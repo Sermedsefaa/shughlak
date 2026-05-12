@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "title": "شوغلاک — کەلێری کار لە کەرکووک",
+    "description": "تەختەی کارەکانی کەرکووک کە پەیوەندی نێوان خوازکاران و خاوەن کار دابین دەکات."
+  },
+  "brand": {
+    "name": "شوغلاک",
+    "tagline": "کەلێری کار لە کەرکووک"
+  },
+  "nav": {
+    "home": "سەرەکی",
+    "jobs": "هەلی کار",
+    "profile": "پرۆفایل",
+    "dashboard": "داشبۆرد",
+    "postJob": "هەلی کار بلاو بکە",
+    "login": "چوونەژوورەوە",
+    "register": "خۆتۆمارکردن",
+    "logout": "دەرچوون"
+  },
+  "home": {
+    "title": "کارە نزیکەکان",
+    "subtitle": "کەرکووک — داواکاری خێرا، ڕێکلام ڕوون",
+    "searchPlaceholder": "ناونیشان، کۆمپانیا…",
+    "searchAction": "گەڕان",
+    "categoriesLabel": "پۆل",
+    "noResults": "هیچ هەلی کارێک نییە.",
+    "viewAll": "هەموو کارەکان"
+  },
+  "jobs": {
+    "title": "هەموو هەلی کارەکان",
+    "filters": "پاڵاوتن",
+    "category": "پۆل",
+    "jobType": "جۆر",
+    "salaryMin": "کەمترین مووچە (USD)",
+    "salaryMax": "زۆرترین مووچە (USD)",
+    "allCategories": "هەموو پۆلەکان",
+    "fullTime": "کاتی تەواو",
+    "partTime": "نیوەکات",
+    "clear": "سڕینەوەی پاڵاوتن",
+    "results": "{count, plural, =0 {هیچ کارێک نییە} one {کارێک} other {# کار}}",
+    "empty": "هیچ کارێک ناگونجێت لەگەڵ ئەم پاڵاوانە."
+  },
+  "jobCard": {
+    "apply": "داواکاری",
+    "openDetail": "وردەکاری ببینە",
+    "callEmployer": "پەیوەندی",
+    "platformOnlyHint": "ئەم ڕێکلامە داواکاری لە ئەپ دەوێت — بۆ داواکاری وردەکاری بکەرەوە.",
+    "whatsapp": "WhatsApp",
+    "verified": "خاوەن کار پشتڕاستکراو",
+    "featured": "تایبەت",
+    "salary": "{min} – {max} {currency}",
+    "salaryOpen": "لەسەر ڕێکخستن",
+    "posted": "بڵاوکراوەتەوە {date}"
+  },
+  "jobDetail": {
+    "back": "گەڕانەوە بۆ هەلی کارەکان",
+    "about": "وەسفی کار",
+    "moreDetails": "وردەکاری زیاتر",
+    "gallery": "وێنەکان",
+    "mapEmbedTitle": "نەخشەی شوێن",
+    "openInMaps": "لە Google Maps بکەرەوە",
+    "actionsHeading": "هەنگاوی دواتر",
+    "directOnlyBanner": "خاوەن کار پێشتر پەیوەندی تەلەفۆن یان WhatsApp دەوێت.",
+    "directOnlyApplyHint": "داواکاری لە ئەپ بۆ ئەم کارە چالاک نییە — پەیوەندی یان WhatsApp بەکاربهێنە.",
+    "apply": "ئێستا داواکاری بکە",
+    "applied": "تۆ داوات کرد",
+    "loginToApply": "وەک خوازکاری کار بچۆرەژوورەوە",
+    "employerHint": "تەنها خوازکاران داواکاری دەکەن",
+    "company": "کۆمپانیا",
+    "location": "شوێن",
+    "type": "جۆری دامەزراندن"
+  },
+  "auth": {
+    "loginTitle": "بەخێربێیتەوە",
+    "registerTitle": "هەژمار دروست بکە",
+    "email": "ئیمەیڵ",
+    "password": "تێپەڕەوشە",
+    "fullName": "ناوی تەواو",
+    "phone": "تەلەفۆن (دڵخواز)",
+    "role": "من",
+    "seeker": "خوازکاری کار",
+    "employer": "خاوەن کار",
+    "companyName": "ناوی کۆمپانیا",
+    "whatsapp": "ژمارەی WhatsApp",
+    "submitLogin": "چوونەژوورەوە",
+    "submitRegister": "دروستکردنی هەژمار",
+    "noAccount": "هەژمارت نییە؟",
+    "hasAccount": "پێشتر هەژمارت هەیە؟",
+    "error": "هەڵەیەک ڕوویدا. دووبارە هەوڵ بدەوە."
+  },
+  "profile": {
+    "title": "پرۆفایلەکەت",
+    "bio": "کورتە",
+    "experienceYears": "ساڵانی ئەزموون",
+    "skills": "لێهاتوویی",
+    "languages": "زمانەکان",
+    "cvUrl": "بەستەری CV",
+    "save": "پاشەکەوت",
+    "saved": "پرۆفایل نوێکرایەوە."
+  },
+  "dashboard": {
+    "title": "داشبۆردی خاوەن کار",
+    "yourJobs": "ڕێکلامەکانت",
+    "applicants": "داواکاران",
+    "noApplicants": "هێشتا داواکار نییە.",
+    "status": "دۆخ",
+    "seeker": "کاندید",
+    "emptyList": "هێشتا ڕێکلام نییە.",
+    "createFirst": "یەکێک دروست بکە"
+  },
+  "postJob": {
+    "title": "هەلی کار بلاو بکە",
+    "submit": "بڵاوکردنەوە",
+    "success": "هەلی کار بە سەرکەوتوویی بلاوکرایەوە.",
+    "fieldTitle": "ناونیشانی کار",
+    "fieldDescription": "کورتە (لە کارتەکاندا دەردەکەوێت)",
+    "fieldLocation": "شوێن",
+    "fieldCurrency": "دراو",
+    "longDescription": "وەسفی درێژ (دڵخواز، پەڕەی تەواو)",
+    "coverImage": "بەستەری وێنەی بەرگ (دڵخواز)",
+    "galleryUrls": "بەستەری وێنەی زیاتر (دڵخواز، هەر هێڵێک یەک URL)",
+    "contactMode": "خوازکار چۆن پەیوەندی بکات؟",
+    "contactBoth": "تەلەفۆن / WhatsApp + داواکاری لە ئەپ",
+    "contactDirect": "تەنها تەلەفۆن / WhatsApp (بێ داواکاری ئەپ)",
+    "contactPlatform": "تەنها داواکاری لە ئەپ"
+  },
+  "jobTypeLabels": {
+    "FULL_TIME": "کاتی تەواو",
+    "PART_TIME": "نیوەکات"
+  },
+  "applicationStatus": {
+    "PENDING": "چاوەڕوان",
+    "VIEWED": "بینراو",
+    "ACCEPTED": "قبووڵ",
+    "REJECTED": "ڕەتکراوەتەوە"
+  }
+}

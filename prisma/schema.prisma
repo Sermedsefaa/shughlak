@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// SQLite: Prisma enums are not supported; use String + app-level constants in lib/enums.ts
+model User {
+  id                String   @id @default(cuid())
+  email             String   @unique
+  passwordHash      String
+  fullName          String
+  phone             String?
+  role              String   @default("SEEKER")
+  isVerified        Boolean  @default(false)
+  createdAt         DateTime @default(now())
+  employerProfile   EmployerProfile?
+  seekerProfile     SeekerProfile?
+  applications      Application[]
+  jobListings       JobListing[]
+}
+
+model EmployerProfile {
+  id          String  @id @default(cuid())
+  userId      String  @unique
+  user        User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  companyName String
+  industry    String?
+  location    String?
+  description String?
+  whatsapp    String?
+}
+
+model SeekerProfile {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  bio             String?
+  experienceYears Int      @default(0)
+  skills          String
+  languages       String
+  cvUrl           String?
+}
+
+model JobListing {
+  id           String   @id @default(cuid())
+  employerId   String
+  employer     User     @relation(fields: [employerId], references: [id], onDelete: Cascade)
+  title        String
+  category     String
+  description  String
+  longDescription String?
+  coverImageUrl String?
+  galleryUrls     String?
+  contactPreference String @default("BOTH")
+  salaryMin    Int?
+  salaryMax    Int?
+  currency     String   @default("USD")
+  jobType      String   @default("FULL_TIME")
+  location     String
+  isActive     Boolean  @default(true)
+  isFeatured   Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  applications Application[]
+
+  @@index([isActive, isFeatured, createdAt])
+}
+
+model Application {
+  id        String   @id @default(cuid())
+  jobId     String
+  job       JobListing @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  seekerId  String
+  seeker    User       @relation(fields: [seekerId], references: [id], onDelete: Cascade)
+  status    String     @default("PENDING")
+  createdAt DateTime   @default(now())
+
+  @@unique([jobId, seekerId])
+}
